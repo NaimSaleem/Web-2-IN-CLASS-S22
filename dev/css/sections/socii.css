@@ -1,0 +1,11 @@
+#socii {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px Auto 40px;
+  grid-template-columns: 40px Auto 40px;
+      grid-template-areas: "a b c";
+  grid-area: b;
+  background-color: aquamarine;
+}
